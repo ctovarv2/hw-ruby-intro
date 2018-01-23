@@ -16,7 +16,7 @@ After completing this assignment, you will know how to:
 * Understand the basic syntax of RSpec unit tests
  
 Overview
---------
+-------- 
 
 **You may find the [Ruby documentation at ruby-doc.org](https://ruby-doc.org) helpful to have on hand.**
 
