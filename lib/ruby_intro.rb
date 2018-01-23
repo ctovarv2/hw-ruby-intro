@@ -4,14 +4,34 @@
 
 def sum arr
   # YOUR CODE HERE
+  if arr.empty?
+	return 0
+  else 
+	arr.sum
+  end
 end
 
 def max_2_sum arr
   # YOUR CODE HERE
+  if arr.empty? 
+	return 0
+  elsif arr.length == 1
+	return arr[0]
+  else
+    sum = 0
+	maxElements = arr.max(2)
+	maxElements.each{|x| sum += x}
+	return sum
+  end
 end
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
+  if arr.empty? || arr.length == 1
+	return false
+  else
+    
+  end
 end
 
 # Part 2
