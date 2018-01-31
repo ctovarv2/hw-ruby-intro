@@ -7,7 +7,7 @@ def sum arr
   if arr.empty?
 	return 0
   else
-	return arr.sum
+	arr.sum
   end
 end
 
@@ -32,7 +32,7 @@ def sum_to_n? arr, n
 	return false
   else
 	#Returns true if a permutation of 2 digits add up to n
-    return arr.permutation(2).any?{|x,y| x + y == n}
+    arr.permutation(2).any?{|x,y| x + y == n}
   end
 end
 
@@ -40,7 +40,7 @@ end
 
 def hello(name)
   # YOUR CODE HERE
-  return "Hello, " + name
+  "Hello, " + name
 end
 
 def starts_with_consonant? s
@@ -80,7 +80,6 @@ class BookInStock
 
 	#Creates Getters and Setters
 	attr_accessor :isbn, :price
-	
 	
 	#Constructor
 	def initialize(isbn, price)
